@@ -6,12 +6,15 @@ const App = () => {
   const [userName,setUserName] = useState("")
   const [password,setPassword] = useState("")
   return (
-  <div className="flex justify-center items-center h-screen relative overflow-hidden">
+  <div className="h-screen relative overflow-hidden">
 
+    <img className="absolute bottom-[-0%] left-[-0%] w-[800px] h-[600px]" src={`/Ellipse 1.png`} alt="Ellipse" />
+
+    <img className="absolute top-[-0%] right-[-0%] flex flex-auto w-[500px] h-[650px]" src={`/Ellipse 2.png`} alt="Ellipse" />
    <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center ">
    <div className="flex items-center justify-center h-full overflow-hidden">
   
-  <div className="flex flex-col  bg-opacity-20p-2 pr-10 pt-10 pl-10 rounded-3xl shadow-xl">
+  <div className="flex flex-col  bg-opacity-100 p-2 pr-10 pt-10 pl-10 rounded-3xl shadow-xl">
         <h1 className="text-7xl font-semibold text-[#02B94B]">LOGIN</h1>
         <input 
           type="text"
@@ -51,9 +54,6 @@ const App = () => {
         </div>
            
     </div>
-    <img className="absolute bottom-[-0%] left-[-0%] w-[800px] h-[600px]" src={`/Ellipse 1.png`} alt="Ellipse" />
-
-    <img className="absolute top-[-0%] right-[-0%] w-[500px] h-[650px]" src={`/Ellipse 2.png`} alt="Ellipse" />
         {/* <div className="bg-gradient-to-r from-[#02B94B] -skew-x-12 -skew-y-12 rotate-90 to-[#043b22] w-[600px] h-[600px] absolute bottom-[-0%] left-[-0%]"></div> */}
 
   </div>
